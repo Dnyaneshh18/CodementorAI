@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build outputs
+dist/
+build/
+server/public/
+
+# Environment and sensitive credentials
+.env
+.env.*
+!.env.example
+
+# Temporary test and scratch scripts containing secrets / local testing
+list_models.js
+test_models.js
+test-db.js
+test-data.js
+test_json.js
+scratch.js
+scratch/
+test-java.txt
+InstallationLog.txt
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+vite.config.ts.*
+*.tar.gz
